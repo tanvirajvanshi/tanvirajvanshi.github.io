@@ -1,6 +1,8 @@
   
     body{
         font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+        max-width: 90vw;
+        margin: auto;
     }
      
     ul{
@@ -107,13 +109,27 @@
     }
 
     .img-box{
-         width: 140vw;
+         width: 100%;
     }
 
     .img{
         top: 0%;
         width: 100%;
     }
+
+     .img-profile{
+        width: 30vw;
+    } 
+
+    @media screen and (max-device-width: 1249px) {
+        .img-profile{
+            width: 100%;
+        } 
+
+        .body-box{
+            flex-direction: column;
+        }
+      }
     
     .foot{
         display: flex;
