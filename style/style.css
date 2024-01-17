@@ -250,6 +250,13 @@
         position: relative;
     }
 
+    .article-image-left-special1{
+        width: 50vw;
+        padding-right: 2rem;
+        margin-left: auto;
+        position: relative;
+    }
+
     .card-wrapper-left{
         display: flex;
         position: absolute;
